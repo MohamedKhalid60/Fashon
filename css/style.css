@@ -1,0 +1,774 @@
+img {
+  width: 100%;
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+header .header-top .nav-link {
+  font-size: 12px;
+}
+header .header-mid .navbar-nav .nav-item {
+  padding: 0 14px;
+  font-size: 20px;
+}
+header .header-bottom {
+  background-color: black;
+  color: #fff;
+}
+header .header-bottom p {
+  margin: 0;
+}
+header .header-mid a:hover i {
+  color: #ff2020;
+}
+header .header-mid a {
+  font-size: 14px;
+  font-weight: 900;
+  color: #171613;
+}
+header .header-mid a:hover {
+  color: #ff2020;
+}
+header .header-top a:hover i {
+  color: #ff2020;
+  transform: rotate(-180deg);
+}
+header .header-bottom p {
+  font-size: 14px;
+}
+header .header-bottom p::after {
+  content: "Shop Now";
+  text-decoration: underline;
+  color: #cebd9c;
+}
+/* ================================= */
+/* .home {
+  background-image: url(../img/h1_hero1.jpg.webp);
+  min-height: 550px;
+  background-size: cover;
+  background-position: center;
+} */
+.home {
+  position: relative;
+}
+.home .col-xl-3 .card {
+  background-color: transparent;
+  border: none;
+  left: 150px;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  width: 40%;
+}
+.home .col-xl-4 .card {
+  background-color: transparent;
+  border: none;
+  right: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  width: 40%;
+}
+.home .card span {
+  color: #ff2020;
+  font-family: "Clicker Script", cursive;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 1px;
+  display: block;
+  text-transform: capitalize;
+}
+.home .btn {
+  width: 30%;
+  margin: auto;
+  padding: 7px 20px;
+  border-radius: 0;
+}
+.home .btn:hover {
+  background-color: transparent;
+  color: #171613;
+}
+/* =========================== */
+.home-1 {
+  padding: 30px 0;
+}
+.home-1 .card {
+  border: none;
+  transition: all 0.5s;
+  position: relative;
+}
+.home-1 .card::after {
+  content: "";
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 30% 30% 0 0;
+  top: 70%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 4px 2px 30px rgba(0, 0, 0, 0.397);
+}
+
+.home-1 .card-img-overlay {
+  z-index: 1;
+  margin-top: 170px;
+  color: #fff;
+  background-color: transparent;
+  font-weight: bolder !important;
+}
+.home-1 .card-img-overlay a {
+  opacity: 0;
+  transition: all 0.5s;
+  color: bisque;
+}
+.home-1 .card:hover a {
+  opacity: 1;
+  transform: scale(3);
+}
+.home-1 .img-scale {
+  overflow: hidden;
+}
+.home-1 .img-scale .card-img {
+  transition: all 0.5s;
+  border-radius: 0;
+}
+.home-1 .card:hover .card-img {
+  transform: scale(1.1);
+}
+/* ========================== */
+.home-2 .card::after {
+  width: 0;
+  content: "";
+}
+.home-2 .col-xl-2 {
+  width: 18.7%;
+}
+.home-2 .container {
+  width: 65%;
+  margin: auto;
+}
+.home-2 .card-img-overlay {
+  margin-top: 190px;
+}
+.home-2 .card-img-overlay a {
+  background-color: #fff;
+  padding: 12px;
+}
+.home-2 .card-img-overlay a:hover {
+  background-color: #ff2020;
+}
+.home-2 {
+  padding-bottom: 100px;
+}
+.home-2 .text-home-2 {
+  text-align: center;
+}
+.home-2 .text-home-2 .prob span a {
+  color: #cebd9c;
+  text-decoration: line-through;
+
+  margin-left: 12px;
+}
+.home-2 .text-home-2 h6 a,
+.prob a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(91, 89, 89);
+  font-size: 14px;
+}
+/* ========================= */
+.home-3 {
+  background-color: #f3ead8;
+  padding: 50px;
+  text-transform: capitalize;
+}
+.text-home-3 {
+  width: 40%;
+  margin: auto;
+}
+.text-home-3 h2 {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.home-3 p {
+  font-weight: 600;
+}
+.home-3 a {
+  text-decoration: none;
+  color: rgb(91, 89, 89);
+}
+.home-3 .contact-home-3 .photo {
+  width: 80px;
+  display: inline-block;
+}
+.home-3 .contact-home-3 .photo-det {
+  padding: 5px;
+  line-height: 0.5;
+  text-align: start;
+  font-size: 12px;
+}
+.home-3 .contact-home-3 .photo-det p {
+  padding-top: 14px;
+}
+/* =========================== */
+.home-4 .row h2 {
+  padding: 25px 0;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.home-5 .card {
+  border: none;
+  background: transparent;
+}
+.home-5 .card .text-home-5 {
+  padding: 10px 8px;
+}
+.home-5 .card .text-home-5 p {
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+}
+.home-5 .card .text-home-5 h6 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.home-5 .card .text-home-5 a:last-child {
+  color: black;
+  transition: all 0.5s;
+}
+.home-5 .card .text-home-5 a:last-child:hover {
+  letter-spacing: 1.2px;
+}
+.home-5 {
+  background: #f6f6f6;
+  padding-top: 80px;
+  padding-bottom: 29px;
+}
+.home-5 .card:hover h6 {
+  color: #ff2020;
+}
+.home-6 .icon-img {
+  width: 40px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.home-6 .card {
+  height: 120px;
+  margin: 20px 0;
+  padding: 30px 0;
+  border: none;
+  text-align: center;
+  border-left: #32323273 1px solid;
+  border-radius: 0;
+}
+.home-6 .card-1 {
+  border: none;
+}
+
+.home-6 .card h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.home-6 .card p {
+  font-size: 14px;
+}
+.home-6 .col-xl-3 {
+  padding: 50px 0;
+}
+footer {
+  margin-top: 80px;
+  padding-top: 50px;
+  background-color: #171613;
+  color: #ded6d6ba;
+}
+footer .col-xl-2 h4 {
+  font-size: 16px;
+  padding: 7px;
+}
+footer .col-xl-3 h3 {
+  font-size: 24px;
+}
+footer .col-xl-3 p {
+  font-size: 16px;
+}
+footer .col-xl-2 li {
+  font-size: 12px;
+  padding: 4px;
+}
+footer .col-xl-2 li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+footer .border-top {
+  padding: 10px 0;
+}
+.subscribe form .btn {
+  background-color: #ff2020;
+  padding: 5px 25px;
+  color: #fff;
+  border: none;
+}
+.subscribe .col-xl-2 a {
+  padding-left: 20px;
+  color: #f6f6f6;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+i {
+  transition: all 0.7s;
+}
+.subscribe .col-xl-2 a:hover i {
+  transform: rotate(-180deg);
+}
+/* ========================== */
+.men-1 {
+  background-color: #f3ead8;
+  padding: 20px 0;
+}
+.men-1 h3 {
+  padding: 15px 0;
+  font-weight: 900;
+}
+.men-1 a {
+  padding: 0 5px;
+  color: rgb(82, 81, 81);
+  font-size: 12px;
+  text-decoration: none;
+}
+.men-2 .col-left {
+  border-radius: 10px;
+  padding: 15px 10px;
+  border: 1px solid rgba(91, 91, 91, 0.199);
+}
+.men-2 .col-left .filter-1 {
+  padding: 20px 5px;
+}
+.men-2 .col-left form input {
+  margin-top: 20px;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: #17161353 1px solid;
+}
+.men-2 .filter {
+  padding: 10px;
+}
+.men-2 .filter p,
+.men-2 .filter span {
+  padding: 20px;
+}
+.men-2 .filter p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.men-2 .col-left h4,
+.men-2 .col-left h4 span {
+  font-size: 14px;
+  font-weight: bolder;
+}
+/* =========blog========= */
+.blog .col-xl-3 form .btn {
+  color: #fff;
+  background-color: #ff2020;
+  border: #ff2020 2px solid;
+  border-radius: 0;
+}
+.blog .col-xl-3 .card {
+  padding: 30px;
+  background-color: #fbf9ff;
+  margin: 10px 0;
+  border: none;
+  border-radius: 0;
+}
+.blog .col-xl-3 .card h5 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.blog .col-xl-3 .card ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #22222227;
+  list-style: none;
+}
+.blog .col-xl-3 .card ul li a {
+  color: #222222d7;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.5s;
+}
+.blog .col-xl .mg {
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+}
+.blog .col-xl .details h4 {
+  font-size: 14px;
+}
+.blog .col-xl .details h4 a {
+  color: #212121c8;
+  padding: 8px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.blog .col-xl .details h4 p {
+  font-size: 12px;
+  color: #17161362;
+  padding: 10px;
+}
+.blog .card .btns button {
+  margin-top: 4px;
+  border: none;
+  color: #1d1c1bb9;
+  padding: 0 6px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.blog .card .imgs .col-xl-4 {
+  margin-top: 4px;
+}
+.blog .card .sub {
+  padding: 10px 2px;
+  margin-top: 10px;
+}
+.blog .card .sub1 {
+  color: #ff2020;
+  border: 1px solid #ff2020;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.blog .card a:hover,
+.blog .card h4 a:hover,
+.blog .card h3 a:hover,
+.blog .card ul li a:hover {
+  color: #ff2020;
+}
+.blog .card button:hover {
+  color: #fff;
+  background-color: #ff2020;
+}
+
+.blog .pos {
+  background-color: #ff2020;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  top: 260px;
+  left: 20px;
+}
+.blog .pos:hover {
+  background-color: transparent;
+  color: #ff2020;
+  cursor: pointer;
+}
+.blog .col-xl-6 h3,
+.blog .col-xl-6 h3 a {
+  margin: 30px 10px;
+  color: #171613;
+  transition: all 0.5s;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.blog .col-xl-6 .d-flex a {
+  color: #1f1e1e;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.blog .col-xl-6 article {
+  padding: 0 20px;
+  font-size: 14px;
+}
+.blog .col-xl-6 .d-flex a:hover {
+  color: #ff2020;
+}
+.blog .card {
+  margin-top: 20px;
+  box-shadow: 2px 2px 20px #17161323;
+}
+.blog {
+  padding-top: 50px;
+}
+.blog .card .pragh {
+  padding: 20px;
+  background-color: rgba(130, 139, 178, 0.1);
+}
+.blog .card .pragh article {
+  background-color: #fff;
+  border-left: #171613 1px solid;
+}
+.blog ul li {
+  list-style: none;
+}
+.blog .col-xl-4 p {
+  font-size: 12px;
+}
+.blog .col-xl-4 .mg {
+  width: 50px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.blog .col-xl-4 .text {
+  line-height: 0;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.blog .col-left .text p {
+  text-align: start;
+  padding-left: 10px;
+}
+.blog .col-right .text p {
+  text-align: end;
+  padding-right: 10px;
+}
+.contact .map {
+  width: 100%;
+  margin-top: 20px;
+}
+.contact .l_p {
+  padding: 20px 0;
+  width: 100%;
+  font-size: 40px;
+  color: #263b5c;
+  font-weight: 900;
+}
+.contact .row {
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.contact .field {
+  width: 70%;
+  justify-content: space-between;
+}
+.contact .field1 {
+  justify-content: space-between;
+}
+.contact .col-xl-6 .ul-in p {
+  line-height: 1;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+.contact .col-xl-6 .ul-in li span {
+  padding-right: 10px;
+}
+.contact .col-xl-6 .ul-out li {
+  line-height: 2;
+  font-weight: 900;
+}
+.contact .col-xl-6 .item-form {
+  width: 49%;
+  justify-content: space-between;
+}
+.contact .col-xl-6 .item1-form {
+  width: 100%;
+}
+.contact .col-xl-6 .item-form-all {
+  padding: 10px 2px;
+  margin: 10px 0;
+  border: 1px solid #bab6b6;
+}
+.sub-contact {
+  color: #ff2020;
+  background-color: #fff;
+  border: #ff2020 1px solid;
+  font-weight: bold;
+  padding: 10px 40px;
+  margin: 30px 0;
+  transition: all 0.5s;
+}
+.sub-contact:hover {
+  color: #fff;
+  background-color: #ff2020;
+}
+.ul-in,
+.ul-out {
+  list-style: none;
+}
+.product {
+  margin-top: 30px;
+}
+.product img {
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+}
+.product .card {
+  width: 100%;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 20px;
+}
+.product .text h2 {
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+.product .text {
+  padding-left: 20px;
+}
+.product button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #171613;
+  position: absolute;
+  left: 350px;
+  bottom: 50px;
+}
+.pro .mg,
+.comment .mg {
+  width: 10%;
+  height: 20%;
+}
+.pro {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fbf9ff;
+}
+.pro .text {
+  padding-left: 20px;
+}
+.pro p {
+  font-size: 12px;
+}
+.comment {
+  padding: 10px;
+}
+.comment .text {
+  padding: 15px;
+}
+.comment .text p {
+  font-size: 14px;
+  color: #777777;
+}
+.details-blog .col-xl-6 .card {
+  border: none;
+  box-shadow: none;
+}
+.product .card1 {
+  margin-top: 80px;
+}
+.product .card1 a {
+  padding-left: 20px;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.product .card1 a:focus {
+  color: #ff2020;
+  border-bottom: 1px #ff2020 solid;
+}
+.product .card1 p {
+  font-size: 13px;
+}
+.card-det .card {
+  border: none;
+}
+.card-det .card p {
+  padding: 40px;
+}
+.card-det .card button {
+  padding: 10px 20px;
+  margin: 40px;
+  color: #fff;
+  background-color: #ff2020;
+  border: none;
+  border-radius: 20px;
+}
+.card-det {
+  padding-top: 40px;
+}
+.card-det h6,
+.card-det p,
+.card-det .card .btn {
+  border-bottom: 2px solid #6a6a6b1e;
+  border-left: 1px solid #6a6a6b1e;
+}
+.card-det .card a {
+  color: #1f1e1e;
+  text-decoration: none;
+}
+.log-in {
+  margin-top: 150px;
+}
+.log-in .card {
+  box-shadow: 4px 6px 30px #34343321;
+  padding: 40px;
+  border: none;
+}
+.log-in .card h3 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.log-in .card p {
+  font-size: 14px;
+  color: rgb(116, 115, 115);
+  padding-top: 10px;
+}
+.log-in .card label {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px 10px;
+}
+.log-in .card input {
+  border: 1px solid #77777775;
+  padding: 10px 5px;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.log-in .card .check {
+  padding: 5px;
+  font-size: 15px;
+}
+.log-in .card a {
+  color: #ff2020;
+  font-size: 13px;
+  font-weight: 500;
+}
+.log-in .card .btn .but {
+  padding: 10px 20px;
+  color: #fff;
+  background: #ff2020;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.log-in .card .btn {
+  padding-top: 30px;
+}
+@media screen and (max-width: 600px) {
+  .text-home-3 {
+    width: 100%;
+  }
+  .home .col-xl-3 .card {
+    top: 10px;
+    left: 40px;
+    width: 70%;
+  }
+  .home .col-xl-4 .card {
+    top: 10px;
+    right: 40px;
+    width: 70%;
+  }
+  .home .card h1 {
+    font-size: 25px;
+  }
+  .home .card span {
+    font-size: 22px;
+  }
+  .home .card p {
+    font-size: 10px;
+  }
+}
